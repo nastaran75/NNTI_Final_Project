@@ -47,7 +47,7 @@ from utils import *
 # uploaded = files.upload()
 
 
-data = open('data/bengali_hatespeech.csv')
+data = open('bengali_hatespeech.csv')
 data = csv.reader(data, delimiter='\t')
 tweets = [line for line in data]  # [:1000]
 
