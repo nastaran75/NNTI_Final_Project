@@ -38,7 +38,7 @@ device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 #uploaded = files.upload()
 
 
-data = open('data/hindi_hatespeech.tsv')
+data = open('hindi_hatespeech.tsv')
 data = csv.reader(data,delimiter='\t')
 tweets = [line for line in data]#[:1000]
 
